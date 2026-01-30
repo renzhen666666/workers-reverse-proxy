@@ -7,7 +7,7 @@
 //映射表
 const domain_mappings = {
   'www.example.com':{ //访问域名
-    origin: 'origin.example.com', //源站 ip/端口/域名
+    origin: 'origin.example.com', //源站 ip/端口/域名(不要包含协议头)
     host: 'host.example.com', //访问源站时使用的 Host 头（默认与origin相同）
     https: true //是否使用 HTTPS 访问源站
   }
