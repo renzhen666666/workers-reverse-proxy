@@ -1,0 +1,5 @@
+name = "fandai"
+compatibility_date = "2026-01-01"
+main = "./main.js"
+
+
